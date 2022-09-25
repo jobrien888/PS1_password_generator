@@ -34,6 +34,7 @@ while($end -eq 1)  # starts loop that gives option to generate another password 
         }
     if($input -eq "STOP")  # stops loop if 'STOP' is entered as input
         {
+            Write-Host "`n", "Ending process...", "`n"
             $end = 0
         }
 }
